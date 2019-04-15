@@ -43,15 +43,15 @@
 }
 
 #more  p.facebook {
-	background: transparent url(/web/20180901032617im_/http://see-you-there.co.uk/img/facebook.png) left no-repeat;
+	background: transparent url(../img/facebook.png) left no-repeat;
 }
 
 #more p.gallery {
-	background: transparent url(/web/20180901032617im_/http://see-you-there.co.uk/img/gallery.png) left no-repeat;
+	background: transparent url(../img/gallery.png) left no-repeat;
 }
 
 #more p.home {
-	background: transparent url(/web/20180901032617im_/http://see-you-there.co.uk/img/home.png) left no-repeat;
+	background: transparent url(../img/home.png) left no-repeat;
 }
 
 #footer  #last {

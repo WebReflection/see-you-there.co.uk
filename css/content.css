@@ -30,7 +30,7 @@ body {
 }
 
 #main {
-	background: #FFF url(clouds.png) top repeat-x;
+	background: #FFF url(../img/clouds.png) top repeat-x;
 	text-align: center;
 }
 
@@ -102,7 +102,7 @@ p {
 }
 
 #footer {
-	background-image: url(logo.png);
+	background-image: url(../img/logo.png);
 	background-repeat: repeat-x;
 	background-position: top;
 	text-align: center;
@@ -173,15 +173,15 @@ p {
 }
 
 #more > p.facebook {
-	background: transparent url(facebook.png) left no-repeat;
+	background: transparent url(../img/facebook.png) left no-repeat;
 }
 
 #more > p.gallery {
-	background: transparent url(gallery.png) left no-repeat;
+	background: transparent url(../img/gallery.png) left no-repeat;
 }
 
 #more > p.home {
-	background: transparent url(home.png) left no-repeat;
+	background: transparent url(../img/home.png) left no-repeat;
 }
 
 #footer > #last {
