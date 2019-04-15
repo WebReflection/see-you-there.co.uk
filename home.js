@@ -1,0 +1,1 @@
+(function(g,e){g[e]&&g[e]("DOMContentLoaded",function(d){d=g.document;g=d.getElementsByTagName("head")[0].appendChild(d.createElement("link"));g.rel="styleSheet";g.type="text/css";g.href="css/font.css"},false)}(this,"addEventListener"))

@@ -1,0 +1,207 @@
+html, body, #canvas {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	color: #FFF;
+	cursor: default;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 13pt;
+}
+
+#canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#header, #main {
+	color: #000;
+}
+
+#header {
+	background-color: #F5F0FF;
+	text-align: center;
+	font-size: 18pt;
+}
+
+#main {
+	background: #FFF url(clouds.png) top repeat-x;
+	text-align: center;
+}
+
+#main > div.description,
+#footer > div {
+	text-align: left;
+	margin: auto;
+}
+
+#main > div.description {
+	min-height: 206px;
+}
+
+#main > div.menu {
+	min-height: auto;
+}
+
+#footer > div {
+	max-width: 620px;
+}
+
+#main > div.description * {
+	margin: 0 8px;
+}
+
+#main > div.description {
+	max-width: 636px;
+	padding: 24pt 0;
+	clear: both;
+}
+
+#main > div.description > img, #map {
+	border: 8px solid #BBB;
+}
+
+#main > div.description > img.float-left {
+	float: left;
+}
+
+#main > div.description > img.float-right {
+	float: right;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: "civediamoli";
+	font-style: italic;
+}
+
+h1 {
+	color: #555;
+	font-size: 24pt;
+	padding-top: 24pt;
+}
+
+h2 {
+	color: #777;
+	font-size: 16pt;
+}
+
+h3 {
+	color: #333;
+	font-size: 18pt;
+	padding-bottom: 12pt;
+}
+
+p {
+	margin: 0;
+}
+
+#footer {
+	background-image: url(logo.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	text-align: center;
+	padding-top: 220px;
+}
+
+#where ul {
+	float: left;
+	padding: 0;
+	margin: 0 8px;
+	list-style: none;
+	width: 252px;
+}
+
+#where li {
+	color: #999;
+	background-color: #000;
+	font-size: 12pt;
+	padding: 12pt 0;
+}
+
+#where:hover li {
+	color: #DDD;
+}
+
+#where li a,
+#where li a:visited {
+	border: 0;
+	color: #999;
+	text-decoration: none;
+	border-bottom: 1px dotted #333;
+}
+
+#where li a:hover {
+	color: #DDD;
+}
+
+#where:hover li a {
+	border-bottom: 1px dotted #FFF;
+}
+
+#more {
+	clear: left;
+}
+
+#more > p {
+	margin: 24pt 0 0 60px;
+	float: left;
+	width: 150px;
+	line-height: 60px;
+	height: 64px;
+	padding-left: 68px;
+}
+
+#more > p > a,
+#more > p > a:visited {
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px dotted #333;
+}
+
+#more > p > a:hover {
+	color: #999;
+}
+
+#more:hover > p > a {
+	border-bottom: 1px dotted #FFF;
+}
+
+#more > p.facebook {
+	background: transparent url(facebook.png) left no-repeat;
+}
+
+#more > p.gallery {
+	background: transparent url(gallery.png) left no-repeat;
+}
+
+#more > p.home {
+	background: transparent url(home.png) left no-repeat;
+}
+
+#footer > #last {
+	clear: left;
+	text-align: center;
+	font-size: 10pt;
+	padding: 24pt;
+	color: #777;
+}
+
+#main > div.menu a,
+#main > div.menu a:visited,
+#last > a,
+#last > a:visited {
+	text-decoration: none;
+	color: #555;
+	border-bottom: 1px dotted #333;
+}
+
+#last:hover > a {
+	color: #333;
+	border-bottom: 1px dotted #777;
+}
