@@ -9,7 +9,7 @@ html, body, #canvas {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 13pt;
 }
 
@@ -74,7 +74,7 @@ body {
 	float: right;
 }
 
-h1, h2, h3 {
+h1, h3 {
 	margin: 0;
 	font-family: "civediamoli";
 	font-style: italic;
@@ -109,7 +109,12 @@ p {
 	padding-top: 220px;
 }
 
+#where {
+	text-align: center !important;
+}
+
 #where ul {
+	text-align: left;
 	float: left;
 	padding: 0;
 	margin: 0 8px;
@@ -142,6 +147,10 @@ p {
 
 #where:hover li a {
 	border-bottom: 1px dotted #FFF;
+}
+
+#where img {
+	margin: auto;
 }
 
 #more {
@@ -204,4 +213,11 @@ p {
 #last:hover > a {
 	color: #333;
 	border-bottom: 1px dotted #777;
+}
+
+@media only screen and (max-width: 608px) {
+	#where ul {
+		float: none;
+		margin: auto;
+	}
 }
